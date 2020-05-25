@@ -1,0 +1,64 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+h3 {
+  text-align: center;
+}
+
+.loginBtn {
+  margin-right: 20px;
+}
+
+input.yellow-input {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input.yellow-input + label {
+  color: #fff !important;
+}
+
+input.yellow-input:focus {
+  border-bottom: 1px solid #ffeb3b !important;
+  box-shadow: 0 1px 0 0 #ffeb3b !important;
+}
+
+input.yellow-input:focus + label {
+  color: #ffeb3b !important;
+}
+
+#nav-mobile {
+  padding: 0 3rem;
+}
+
+.brand-logo {
+  padding: 0 0 0 5rem !important;
+}
+
+.createPage {
+  padding-top: 2rem;
+}
+
+.createLink {
+  padding-top: 15%;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.connection-links {
+  line-height: 2rem;
+}
+
+.connection-links:hover {
+  color: #ffeb3b !important;
+  
+}
