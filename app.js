@@ -2,10 +2,13 @@ const express = require("express");
 const config = require("config");
 const path = require("path");
 const mongoose = require("mongoose");
+const favicon = require("serve-favicon");
+require("dotenv").config();
 
 const app = express();
 
 app.use(express.json({ extended: true }));
+app.use(favicon(path.join(__dirname, "client", "build", "favicon.ico")));
 
 app.use("/api/auth", require("./routes/auth.routes"));
 app.use("/api/link", require("./routes/link.routes"));
@@ -15,8 +18,8 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "client", "build")));
 
   app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client", "build", "index.html"))
-  })
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+  });
 }
 
 //const PORT = config.get("port") || 5000;
