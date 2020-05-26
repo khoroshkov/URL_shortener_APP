@@ -48,11 +48,11 @@ input.yellow-input:focus + label {
   padding-top: 3rem;
 }
 
-.page-footer {
+/* .page-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
+} */
 
 .connection-links {
   line-height: 2rem;
