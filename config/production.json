@@ -2,5 +2,5 @@
   "port": 5000,
   "jwtSecret": "url_shortener_app",
   "mongoUri": "mongodb+srv://dbAdmin:ks6101981@cluster0-aq6oj.azure.mongodb.net/app?retryWrites=true&w=majority",
-  "baseUrl": "https://free-short-url.herokuapp.com/"
+  "baseUrl": "https://free-short-url.herokuapp.com"
 }
