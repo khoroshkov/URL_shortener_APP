@@ -76,7 +76,7 @@ export const AuthPage = () => {
               disabled={loading}
               onClick={loginHandler}
             >
-            <i class="material-icons right" style={{fontSize: "16px"}}>send</i>
+            <i className="material-icons right" style={{fontSize: "16px"}}>send</i>
               Login
             </button>
             <button
@@ -84,7 +84,7 @@ export const AuthPage = () => {
               onClick={registerHandler}
               disabled={loading}
             >
-            <i class="material-icons right" style={{fontSize: "18px"}}>cloud_upload</i>
+            <i className="material-icons right" style={{fontSize: "18px"}}>cloud_upload</i>
               Registration
             </button>
           </div>
